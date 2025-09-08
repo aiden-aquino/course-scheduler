@@ -1,0 +1,356 @@
+{
+    "STATS": {
+        "name": "Statistics",
+        "credits": "3-4",
+        "description": "This is a stand-in course representing MATH 220, MATH 229 or MATH 318",
+        "prerequisites": []
+    },
+    "CALC": {
+        "name": "Calculus",
+        "credits": "3-4",
+        "description": "This is a stand-in course representing MATH 231 or MATH 235",
+        "prerequisites": []
+    },
+    "ALGEBRA": {
+        "name": "College Algebra",
+        "credits": "0-3",
+        "description": "This is a stand-in course representing MATH 255, MATH 256, or a sufficient score on the ALEKS exam.",
+        "prerequisites": []
+    },
+    "CS 101": {
+        "name": "Introduction to Computer Science",
+        "credits": "3",
+        "description": "How to think like a computer scientist. Topics include an overview of the context of computing, computational operations, computational devices, algorithms and data structures, the storage and transmission of data, the presentation of information, and the limits of computing. Students learn about the design and\u00a0implementation of computational systems, the value of abstraction, problem solving and the ways in which computation impacts society.",
+        "prerequisites": []
+    },
+    "CS 149": {
+        "name": "Introduction to Programming",
+        "credits": "3",
+        "description": "Fundamental problem-solving techniques using a modern programming language. Topics include variables, input/output, decisions, loops, functions, arrays, and objects. Students learn about algorithm development, testing strategies, and software tools. Students may not receive credit for both CS 139\u00a0and CS 149. You may only enroll in CS 149 at most twice.",
+        "prerequisites": [
+            "ALGEBRA"
+        ]
+    },
+    "CS 159": {
+        "name": "Advanced Programming",
+        "credits": "3",
+        "description": "Students use advanced problem-solving strategies to develop algorithms using classes and objects and techniques such as recursion, exceptions and file I/O. This course also focuses on designing small applications and effective testing strategies. Students may not receive credit for both CS 159 and CS 239. You may only enroll in CS 159 at most twice.",
+        "prerequisites": [
+            "CS 149"
+        ]
+    },
+    "CS 227": {
+        "name": "Discrete Structures I",
+        "credits": "3",
+        "description": "An introduction to discrete mathematical structures including functions, relations, sets, logic, matrices, elementary number theory, proof techniques, basics of counting, graphic theory, discrete probability, digital logic, finite state machines, integer and floating point representations.",
+        "prerequisites": [
+            "CS 149"
+        ]
+    },
+    "CS 240": {
+        "name": "Algorithms and Data Structures",
+        "credits": "3",
+        "description": "Students learn how to implement stacks, queues, lists, sets and maps using arrays, linked lists, binary trees, heaps, binary search trees, balanced trees and hashing. Students study graph representations and algorithms. Students analyze recursive and non-recursive algorithms, illustrated by various searching and sorting algorithms. Additional topics may be included as time permits. You may only enroll in CS 240 at most twice.",
+        "prerequisites": [
+            "CALC",
+            "CS 159",
+            "CS 227"
+        ]
+    },
+    "CS 261": {
+        "name": "Computer Systems I",
+        "credits": "3",
+        "description": "This course provides an introduction to the operation of modern interrupt-driven computer systems. Explores the representation of software and information in binary memory, the primary components of a CPU, systems programming and basic interactions with an Operating System. You may only enroll in CS 261 at most twice.",
+        "prerequisites": [
+            "CS 159",
+            "CS 227"
+        ]
+    },
+    "CS 280": {
+        "name": "Projects in Computer Science",
+        "credits": "1-3",
+        "description": "Projects or topics in computer science which are of interest to the lower division student. May be repeated for credit when course content changes. Topics may vary.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 327": {
+        "name": "Discrete Structures II",
+        "credits": "3",
+        "description": "This course builds on the theoretical foundation developed in Discrete Structures I. Students study a range of topics from discrete mathematics and theoretical computer science including elementary number theory, matrices, graph theory, automata, computability and complexity theory.",
+        "prerequisites": [
+            "CS 227",
+            "CS 240"
+        ]
+    },
+    "CS 330": {
+        "name": "Societal and Ethical Issues in Computing",
+        "credits": "3",
+        "description": "Overview of philosophical and professional ethics, and a survey of societal and ethical issues in computing such as privacy, intellectual property, computer security, computer crime, product liability, and the societal, environmental, and economic impact of computers. Students develop skills in assuming and defending positions on societal and ethical issues through oral presentations and written reports.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 332": {
+        "name": "Technical Communication for Computer Science",
+        "credits": "3",
+        "description": "A study of the process of planning, researching, producing and revising technical documents for specific audiences in the computing industry. Document forms studied include definitions, requirements specifications, design specifications, instructions, correspondence, descriptions, plans and reports. Specialized notations and languages are also considered.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 343": {
+        "name": "Application Development",
+        "credits": "3",
+        "description": "Overview of application software development fundamentals and their use in building stand-alone applications, visualizing and interacting with complex data representations, and controlling the Internet of Things. This course provides an introduction to the technologies used to create modern user interfaces (e.g., web technologies), establishing a common foundation for later application-focused courses.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 345": {
+        "name": "Software Engineering",
+        "credits": "3",
+        "description": "Study of modern methods and tools for the development of software products. Topics include software development process models, software development tools, design and construction principles and practice, software quality\u00a0assurance and program management.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 347": {
+        "name": "Web Development",
+        "credits": "3",
+        "description": "This course covers design and development of World Wide Web applications. Students examine protocols, architectures, development languages and facilities, and issues such as accessibility, usability, security\u00a0and reliability. Students work with a suite of development tools and languages to construct a client or server application that includes a GUI and a database.",
+        "prerequisites": [
+            "CS 343"
+        ]
+    },
+    "CS 349": {
+        "name": "Developing Interactive Multimedia",
+        "credits": "3",
+        "description": "Students learn the concepts of multimedia, the issues in designing multimedia to interact effectively with users, the performance and speed issues in designing multimedia and how to implement interactive multimedia applications.",
+        "prerequisites": [
+            "CS 240"
+        ]
+    },
+    "CS 354": {
+        "name": "Introduction to Autonomous Robotics",
+        "credits": "3",
+        "description": "A hands-on introduction to programming autonomous mobile robots. The focus of this course is on designing robotic systems that navigate independently in complex environments. Specific topics include localization, mapping, kinematics, path planning and computer vision.",
+        "prerequisites": [
+            "CS 240",
+            "STATS"
+        ]
+    },
+    "CS 361": {
+        "name": "Computer Systems II",
+        "credits": "3",
+        "description": "Intermediate exploration of modern interrupt-driven computer systems. Explores models of computation and complex systems, techniques for communication and synchronization of parallel and concurrent software, and the protocols that make up the Internet.",
+        "prerequisites": [
+            "CS 240",
+            "CS 261"
+        ]
+    },
+    "CS 374": {
+        "name": "Database Systems",
+        "credits": "3",
+        "description": "An introduction to database design and management with emphasis on data definition, data manipulation and query languages found in modern database management systems.",
+        "prerequisites": [
+            "CS 240",
+            "CS 343"
+        ]
+    },
+    "CS 412": {
+        "name": "Applied Algorithms",
+        "credits": "3",
+        "description": "A practical study of algorithms and their use in problem solving. Algorithms are selected from categories including divide-and-conquer, greedy, backtracking, network flow and dynamic programming. The classes P and NP are introduced and intractable problems discussed. This is a programming intensive course.",
+        "prerequisites": [
+            "CS 327",
+            "STATS"
+        ]
+    },
+    "CS 430": {
+        "name": "Programming Languages",
+        "credits": "3",
+        "description": "Several actual programming languages are studied in terms of the fundamental principles of computer programming language design, including object-oriented programming, functional programming, concurrent programming and logic programming.",
+        "prerequisites": [
+            "CS 240",
+            "CS 261"
+        ]
+    },
+    "CS 432": {
+        "name": "Compilers",
+        "credits": "3",
+        "description": "Introduction to the theory and implementation of compilers. Explores the lexical, syntactic, and semantic analysis of high-level language code as well as code generation, optimization techniques, and architectural or operating system considerations. Course work includes a significant programming component.",
+        "prerequisites": [
+            "CS 327",
+            "CS 361"
+        ]
+    },
+    "CS 442": {
+        "name": "Logic in Computer Science",
+        "credits": "3",
+        "description": "An exploration of some of the many connections between logic and computing, such as the application of classical and temporal logic in program verification, logic and logic programming, decidability, computability, automatic theorem proving, the computational complexity of logic algorithms, and applications of logic in artificial intelligence. A course in discrete mathematics or logic is recommended as preparation for this course.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 444": {
+        "name": "Artificial Intelligence",
+        "credits": "3",
+        "description": "Students will study the history, premises, goals, social impact and philosophical implications of artificial intelligence. Students will study heuristic algorithms for large state spaces and learn to develop recursive and non-deterministic algorithms.",
+        "prerequisites": [
+            "CS 240",
+            "STATS"
+        ]
+    },
+    "CS 445": {
+        "name": "Machine Learning",
+        "credits": "3",
+        "description": "An introduction to the field of machine learning. Explores key problems and algorithms in machine learning from both a theoretical and an applied perspective. Specific topics include supervised and unsupervised learning, anomaly detection, text mining and experimental design. Students who have completed BSAN 393, ISAT 341 and MATH 358 may also take this course.",
+        "prerequisites": [
+            "CS 327",
+            "STATS"
+        ]
+    },
+    "CS 446": {
+        "name": "Software Analysis and Design",
+        "credits": "3",
+        "description": "Contemporary software analysis and design methods, tools, notations, techniques, processes, principles and practices. Students solve analysis and design problems alone or in teams and present their work to their peers and the instructor.",
+        "prerequisites": [
+            "CS 240",
+            "CS 345"
+        ]
+    },
+    "CS 447": {
+        "name": "Interaction Design",
+        "credits": "3",
+        "description": "Study of and practice with processes, principles, tools, models and techniques for designing interactions between humans and digital products and systems. Topics include physiological and psychological factors affecting interaction design, interaction design processes, interaction models, styles and paradigms, design notations and representations, prototyping, and interaction design evaluation.",
+        "prerequisites": [
+            "CS 343"
+        ]
+    },
+    "CS 450": {
+        "name": "Operating Systems",
+        "credits": "3",
+        "description": "Introduction to the design and implementation of modern operating systems. Explores fundamental concepts of operating systems, memory management, virtualization, resource allocation, file systems and system protection mechanisms. Course work includes a significant programming component.",
+        "prerequisites": [
+            "CS 361"
+        ]
+    },
+    "CS 452": {
+        "name": "Design and Analysis of Algorithms",
+        "credits": "3",
+        "description": "An introduction to algorithm design techniques and the mathematical analysis of algorithms. Techniques covered include divide-and-conquer, greedy, backtracking, network flow\u00a0and dynamic programming. The classes P and NP are introduced and intractable problems are discussed. This is a proof-intensive course.",
+        "prerequisites": [
+            "CS 327",
+            "STATS"
+        ]
+    },
+    "CS 455": {
+        "name": "Advanced Computer Networking",
+        "credits": "3",
+        "description": "An in depth analysis of networking protocols and tools to capture, analyze and synthesize network traffic. Includes significant\u00a0programming projects that simulate the operation of network protocols. Introduces the design principles and implementation of client-server network applications.",
+        "prerequisites": [
+            "CS 361"
+        ]
+    },
+    "CS 456": {
+        "name": "Computer Architecture",
+        "credits": "3",
+        "description": "Introduction to the design and implementation of modern CPU architectures. Explores hardware-based parallel execution, quantitative performance evaluation, I/O interfacing techniques and hardware descriptor languages. Course work includes a significant programming component.",
+        "prerequisites": [
+            "CS 361"
+        ]
+    },
+    "CS 457": {
+        "name": "Information Security",
+        "credits": "3",
+        "description": "This course covers the basic issues of information system security. The roles of planning, management, policies, procedures and personnel in protecting the confidentiality, integrity and availability of information are described. Specific threats (malicious code, network attacks and hostile content) and widely used countermeasures (access control, mechanisms, firewalls and intrusion detection systems) are also discussed.",
+        "prerequisites": [
+            "CS 361",
+            "STATS"
+        ]
+    },
+    "CS 458": {
+        "name": "Cyber Defense",
+        "credits": "3",
+        "description": "A hands-on, lab-based learning experience in which the students engage in a series of mini projects to perform security assessment, penetration testing and hardening of networked systems. Students also participate in a cyber defense exercise.",
+        "prerequisites": [
+            "CS 361",
+            "CS 457"
+        ]
+    },
+    "CS 462": {
+        "name": "Network Applications Development",
+        "credits": "3",
+        "description": "Design and implementation of network-based applications using languages and architectures such as sockets, JAVA, TL1 and CORBA. Concepts in distributed processing, including synchronization of interprocess communication and management of replicated data. Analysis of performance issues related to distributed applications.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 470": {
+        "name": "Parallel and Distributed Systems",
+        "credits": "3",
+        "description": "Introduction to parallel and distributed systems. Explores shared memory, cluster, grid, peer-to-peer, and cloud computing models along with parallel software patterns, distributed file systems and performance considerations. Course work includes a significant programming component.",
+        "prerequisites": [
+            "CS 361"
+        ]
+    },
+    "CS 480": {
+        "name": "Selected Topics in Computer Science",
+        "credits": "1-3",
+        "description": "Topics in computer science which are of interest but not otherwise covered in the regular computer science offerings of the department. Offered only with the approval of the department head; may be repeated for credit when course content changes.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 482": {
+        "name": "Selected Topics in Information Security",
+        "credits": "1-3",
+        "description": "Topics in information security. Offered only with the approval of the department head; may be repeated for credit when course content changes",
+        "prerequisites": [
+            "CS 240",
+            "CS 261"
+        ]
+    },
+    "CS 488": {
+        "name": "Computer Graphics Applications",
+        "credits": "3",
+        "description": "This course develops a computer graphics application package based on standard graphics functions as well as attributes of a graphical user interface. It includes experience in applying interactive computer graphics techniques to industrial problems.",
+        "prerequisites": [
+            "CS 240",
+            "CS 261"
+        ]
+    },
+    "CS 497": {
+        "name": "Independent Study",
+        "credits": "1-3",
+        "description": "An advanced course to give independent study experience under faculty supervision. May be taken multiple times for credit, but no more than three credits may be used in the computer science program graduation requirements.",
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 499A": {
+        "name": "Honors",
+        "credits": "1",
+        "description": null,
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 499B": {
+        "name": "Senior Honors Thesis",
+        "credits": "3",
+        "description": null,
+        "prerequisites": [
+            "CS 159"
+        ]
+    },
+    "CS 499C": {
+        "name": "Senior Honors Thesis",
+        "credits": "2",
+        "description": null,
+        "prerequisites": [
+            "CS 159"
+        ]
+    }
+}

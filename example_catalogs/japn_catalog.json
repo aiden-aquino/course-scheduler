@@ -1,0 +1,24 @@
+{
+    "JAPN 101": {
+        "name": "Elementary Japanese I",
+        "credits": "4",
+        "description": "The fundamentals of Japanese through listening, speaking, reading, and writing.",
+        "prerequisites": []
+    },
+    "JAPN 102": {
+        "name": "Elementary Japanese II",
+        "credits": "4",
+        "description": "The fundamentals of Japanese through listening, speaking, reading, and writing. Practice in pronunciation and development of comprehension.",
+        "prerequisites": [
+            "JAPN 101"
+        ]
+    },
+    "JAPN 231": {
+        "name": "Intermediate Japanese I",
+        "credits": "3-4",
+        "description": "A thorough review of grammar, vocabulary building, conversation, composition, and reading.",
+        "prerequisites": [
+            "JAPN 102"
+        ]
+    }
+}
