@@ -19,3 +19,13 @@ A Python-based graphical application designed to help students explore course of
 - **JSON Handling:** Imported and exported course and schedule data using JSON for data persistence.
 - **Data Validation:** Implemented logic to check course prerequisites and enforce scheduling rules, with optional override functionality.
 - **File I/O:** Managed reading and writing of files for importing and exporting courses and schedules.
+
+---
+
+## Usage
+1. **Open terminal** and navigate to the project root (course-scheduler-main/)
+2. **Run on Windows:** <br>
+```py src/buddy.py``` <br>
+or <br>
+**Run on macOS/Linux:** <br>
+```python3 src/buddy.py```
